@@ -4,6 +4,8 @@
     "tailwindcss": "^4.1.8"
   },
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "_comment": "当前项目根package.json包含前后端的monorepo.后期需要调研npm run test脚本选型",
+    "test": "exit 0"
   }
 }
